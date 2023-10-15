@@ -1,0 +1,55 @@
+.navigation {
+    background-color: #fff;
+    position: fixed;
+    z-index: 999;
+    width: 100vw;
+    height: 120px;
+    margin: 0;
+    -webkit-box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.welcome {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-secondary {
+    position: relative;
+    top: -30%;
+    left: 18px;
+    background-color: black;
+}
+
+.collapse {
+    margin: 0 auto;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-body {
+    list-style: none;
+}
+
+.card-body > li > a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.card-body > li > a:hover {
+    cursor: pointer;
+    background-color: #000;
+    color: white;
+    border-radius: 3px;
+}
