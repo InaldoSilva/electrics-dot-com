@@ -1,5 +1,3 @@
-/* Global */
-
 img {
     max-width: 100%;
 }
@@ -43,8 +41,6 @@ a:hover {
     color: #000;
 }
 
-
-
 /* Thumbnail Box */
 .caption h4 {
     font-size: 1rem;
@@ -60,7 +56,6 @@ a:hover {
     font-size: 0.63rem;
 }
 
-
 /* Footer */
 .footer {
     margin: auto;
@@ -74,8 +69,7 @@ p.right {
     float: right;
 }
 
-
-/* Mobile Only */
+/* Mobile */
 @media (max-width: 767px) {
 
     .page-header,
@@ -89,7 +83,6 @@ p.right {
         word-break: break-all;
     }
 }
-
 
 /* ADD-ON
 -------------------------------------------------- */

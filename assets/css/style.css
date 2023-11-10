@@ -88,5 +88,5 @@ footer {
 
 .social-icons > a > img:hover {
     cursor: pointer;
-    filter: drop-shadow(5px 5px 5px rgb(242, 240, 240)) invert(15%);
+    transform: scale(1.1);
 }
