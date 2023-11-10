@@ -53,3 +53,14 @@
     color: white;
     border-radius: 3px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .btn-secondary {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 25%;
+        height: 35px;
+        left: 38%;
+    }
+}
